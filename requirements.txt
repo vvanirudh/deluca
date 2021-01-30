@@ -1,3 +1,7 @@
 setuptools
 jaxlib
 autoclasstoc
+jax
+gym
+matplotlib
+dill

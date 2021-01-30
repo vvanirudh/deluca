@@ -25,4 +25,7 @@ from deluca.agents.core import Agent
 from deluca.agents._ilc import ILC
 from deluca.agents._igpc import IGPC
 
-__all__ = ["LQR", "PID", "BPC", "GPC", "ILQR", "Hinf", "Zero", "DRC", "Adaptive", "Deep", "Agent", "ILC", "IGPC"]
+from deluca.agents._filqr import FiniteLQR
+
+__all__ = ["LQR", "PID", "BPC", "GPC", "ILQR", "Hinf", "Zero", "DRC", "Adaptive", "Deep", "Agent", "ILC", "IGPC",
+           "FiniteLQR"]
